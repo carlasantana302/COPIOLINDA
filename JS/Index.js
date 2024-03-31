@@ -13018,12 +13018,12 @@ function RankQueens(){
         }
         else
         {
-          for(let i = 0; i<getRandomInt(3,4); i++)
+          for(let i = 0; i<getRandomInt(3); i++)
           {
             Tops.push(CurrentSeason.currentCast[i]);
           }
 
-          for(let i = 0; i<getRandomInt(3,4); i++)
+          for(let i = 0; i<getRandomInt(3); i++)
           {
               Bottoms.push(CurrentSeason.currentCast[CurrentSeason.currentCast.length-1-i]);
           }
@@ -13175,12 +13175,12 @@ function RankQueens(){
         }
         else
         {
-          for(let i = 0; i<getRandomInt(3,4); i++)
+          for(let i = 0; i<getRandomInt(3); i++)
           {
             Tops.push(CurrentSeason.currentCast[i]);
           }
 
-          for(let i = 0; i<(3,4); i++)
+          for(let i = 0; i<(3); i++)
           {
               Bottoms.push(CurrentSeason.currentCast[CurrentSeason.currentCast.length-1-i]);
           }
